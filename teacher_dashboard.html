@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Teacher Dashboard</title></head>
+<body>
+  <h1>📊 Submissions Dashboard</h1>
+  <ul>
+    {% for file in submissions %}
+      <li><a href="/submissions/{{ file }}" target="_blank">{{ file }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
