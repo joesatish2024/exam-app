@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Exam Page</title></head>
+<body>
+  <h1>📝 Exam: {{ exam }}</h1>
+  <form method="POST">
+    Name: <input type="text" name="student_name" value="{{ student_name }}" readonly><br><br>
+    Your Answer:<br>
+    <textarea name="answer" rows="10" cols="50" required></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
